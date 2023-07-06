@@ -1,0 +1,88 @@
+.navContainer{
+    height: 10rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #567086;
+    position: fixed;
+    z-index: 1000;
+
+}
+.logo{
+    position: absolute;
+    left: 6rem;
+    font-size: 2.0rem;
+    font-weight: 700;
+    color: #fff;
+ 
+}
+.navLinkContainer{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.navLink{
+    padding: 1.5rem;
+    margin: 2rem;
+    text-align: center;
+    
+}
+.navLink p{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #fff;
+    position: relative;
+}
+.navIcons{
+    color: #fff;
+    height: 3rem;
+    width: 3rem;
+}
+.navItem{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #fff;
+    position: relative;
+}
+.dropDown{
+    position: absolute;
+    top:2px;
+   
+}
+
+.dropDownLists{
+    display: none;
+    background: #567086;
+    position: absolute;
+    width: 15rem;
+    height: 15rem;
+    top: 3.2rem;
+    left: -4.5rem;
+}
+.dropDownLists p{
+    font-weight: 500;
+    font-size: 1.4rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+.navLink:hover .navIcons{
+    color:#F5A623;
+    cursor: pointer;
+
+}
+.navLink:hover .navItem{
+    color: #F5A623;
+    cursor: pointer;
+}
+.dropDownItem:hover{
+    color: #F5A623;
+    cursor: pointer;
+}
+.navLink:hover .dropDownLists{
+    display: block;
+    cursor: pointer;
+}    
+
+
